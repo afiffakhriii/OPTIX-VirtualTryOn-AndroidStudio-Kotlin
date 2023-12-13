@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">OPTIX</string>
+
+    //navigation drawer
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    //menu
+    <string name="menu_home">Home</string>
+    <string name="menu_favorite">Favorite</string>
+    <string name="menu_cart">Cart</string>
+    <string name="menu_profile_setting">Profile Setting</string>
+    <string name="menu_Logout">Log Out</string>
+    <string name="profile_name">Guest Star</string>
+    <string name="profile_email">GuestStar@gmail.com</string>
+    <string name="profile_call">08123456789</string>
+
+    //Login//Logout
+    <string name="btnLogin_text">Sign In</string>
+    <string name="btnSignUp_text">Sign Up</string>
+    <string name="title">Welcome to OPTIX!</string>
+    <string name="sub_title">Your Personal Eyewear Stylist!</string>
+    <string name="new_to_optix">New To OPTIX?</string>
+    <string name="create_account_now">Create Account Now!</string>
+    <string name="sudah_mempunyai_akun">Already have an account?</string>
+    <string name="tv_nama">Name</string>
+    <string name="tv_email">Email</string>
+    <string name="tv_password">Password</string>
+    <string name="tv_confirm_password">Confirm Password</string>
+    <string name="email_alert">Invalid email</string>
+    <string name="password_alert">Password must not be less than 8 characters</string>
+    <string name="alert_empty_input">The input field cannot be empty</string>
+
+    <string name="data">Please complete your personal information first!</string>
+    <string name="continue_with">or continue with</string>
+    <string name="contentDescriptionDetail">detail story image</string>
+    <string name="loading_txt">Loading</string>
+    <string name="welcome_txt">Welcome</string>
+    <string name="title_logout_builder">Logout</string>
+    <string name="text_logout_dialog">Are you sure you want to log out?</string>
+    <string name="yes_txt">Yes</string>
+    <string name="cancel_txt">cancel</string>
+    <string name="retry">Try Again</string>
+
+</resources>

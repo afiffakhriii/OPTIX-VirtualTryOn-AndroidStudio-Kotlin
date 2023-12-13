@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1096677826636",
+    "project_id": "optix-4d550",
+    "storage_bucket": "optix-4d550.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096677826636:android:0cd92e6646a6869a02d4e9",
+        "android_client_info": {
+          "package_name": "com.afif.optix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1096677826636-q4u5r2dsk818h3pt7nuobhl6amo7t3sv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlin7dSQw9vD6T_5eY6E2aXa8y2xz4bJQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1096677826636-q4u5r2dsk818h3pt7nuobhl6amo7t3sv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

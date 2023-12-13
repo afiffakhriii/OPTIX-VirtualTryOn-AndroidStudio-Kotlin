@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.afif.optix.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_favorite"
+        android:name="com.afif.optix.ui.favorite.FavoriteFragment"
+        android:label="@string/menu_favorite"
+        tools:layout="@layout/fragment_favorite" />
+
+    <fragment
+        android:id="@+id/nav_cart"
+        android:name="com.afif.optix.ui.cart.CartFragment"
+        android:label="@string/menu_cart"
+        tools:layout="@layout/fragment_cart" />
+
+    <activity
+        android:id="@+id/Nav_profileSettingActivity"
+        android:name="com.afif.optix.ui.activity.ProfileSettingActivity"
+        android:label="@string/menu_profile_setting"
+        tools:layout="@layout/activity_profile_setting"/>
+
+</navigation>

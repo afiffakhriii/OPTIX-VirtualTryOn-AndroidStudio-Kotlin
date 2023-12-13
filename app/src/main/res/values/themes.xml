@@ -1,0 +1,43 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.OPTIX" parent="Theme.MaterialComponents.DayNight.DarkActionBar.Bridge">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/light_blue</item>
+        <item name="colorPrimaryVariant">@color/light_blue</item>
+        <item name="colorOnPrimary">@color/light_blue</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/light_blue</item>
+        <item name="colorSecondaryVariant">@color/light_blue</item>
+        <item name="colorOnSecondary">@color/light_blue</item>
+        <item name="titleTextColor">@color/dark_blue</item>
+        <item name="titleTextStyle">@font/poppins_bold</item>
+        <item name="actionOverflowButtonStyle">@color/dark_blue</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="DrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@color/dark_blue</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title" parent="android:style/TextAppearance">
+        <item name="android:textColor">@color/light_blue</item>
+        <item name="titleTextStyle">@font/poppins_bold</item>
+    </style>
+
+    <style name="Theme.OPTIX.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="PoppinTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+
+    <style name="Theme.OPTIX.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.OPTIX.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
