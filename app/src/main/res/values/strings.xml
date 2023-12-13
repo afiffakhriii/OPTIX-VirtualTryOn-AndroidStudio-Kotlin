@@ -31,9 +31,12 @@
     <string name="tv_email">Email</string>
     <string name="tv_password">Password</string>
     <string name="tv_confirm_password">Confirm Password</string>
-    <string name="email_alert">Invalid email</string>
-    <string name="password_alert">Password must not be less than 8 characters</string>
-    <string name="alert_empty_input">The input field cannot be empty</string>
+
+    <string name="registration_successful">Registration successful!</string>
+    <string name="fields_required">All fields must be filled in</string>
+    <string name="invalid_email_format">Invalid Email Format!</string>
+    <string name="password_min_length">Password must not be less than 8 characters</string>
+    <string name="password_mismatch">Password not Match</string>
 
     <string name="data">Please complete your personal information first!</string>
     <string name="continue_with">or continue with</string>
