@@ -10,23 +10,31 @@
             android:title="@string/menu_home" />
 
         <item
-            android:id="@+id/nav_favorite"
+            android:id="@+id/nav_wishlist"
             android:icon="@drawable/baseline_favorite_24"
-            android:title="@string/menu_favorite" />
+            android:title="@string/menu_wishlist" />
 
         <item
             android:id="@+id/nav_cart"
             android:icon="@drawable/baseline_shopping_cart_checkout_24"
             android:title="@string/menu_cart" />
         <item
-            android:id="@+id/nav_setting"
+            android:id="@+id/nav_profile_setting"
             android:icon="@drawable/baseline_settings_24"
             android:title="@string/menu_profile_setting" />
 
-        <item
-            android:id="@+id/nav_logout"
-            android:icon="@drawable/baseline_exit_to_app_24"
-            android:title="@string/menu_Logout" />
+
     </group>
+    <item android:title="@string/menu_Logout">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/baseline_exit_to_app_24"
+                android:title="@string/menu_Logout" />
+        </menu>
+
+    </item>
+
+
 
 </menu>

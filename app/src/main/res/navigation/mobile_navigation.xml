@@ -7,26 +7,26 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.afif.optix.ui.home.HomeFragment"
+        android:name="com.afif.optix.ui.fragment.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_favorite"
-        android:name="com.afif.optix.ui.favorite.FavoriteFragment"
-        android:label="@string/menu_favorite"
+        android:id="@+id/nav_wishlist"
+        android:name="com.afif.optix.ui.fragment.favorite.FavoriteFragment"
+        android:label="@string/menu_wishlist"
         tools:layout="@layout/fragment_favorite" />
 
     <fragment
         android:id="@+id/nav_cart"
-        android:name="com.afif.optix.ui.cart.CartFragment"
+        android:name="com.afif.optix.ui.fragment.cart.CartFragment"
         android:label="@string/menu_cart"
         tools:layout="@layout/fragment_cart" />
 
     <activity
-        android:id="@+id/Nav_profileSettingActivity"
-        android:name="com.afif.optix.ui.activity.ProfileSettingActivity"
+        android:id="@+id/nav_profile_setting"
+        android:name="com.afif.optix.ui.activity.setting.ProfileSettingActivity"
         android:label="@string/menu_profile_setting"
-        tools:layout="@layout/activity_profile_setting"/>
+        tools:layout="@layout/activity_profile_setting" />
 
 </navigation>

@@ -1,33 +1,78 @@
 {
   "project_info": {
-    "project_number": "1096677826636",
-    "project_id": "optix-4d550",
-    "storage_bucket": "optix-4d550.appspot.com"
+    "project_number": "569608227763",
+    "project_id": "optix-capstoneproject",
+    "storage_bucket": "optix-capstoneproject.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1096677826636:android:0cd92e6646a6869a02d4e9",
+        "mobilesdk_app_id": "1:569608227763:android:c53375d4b07968a2d799c6",
         "android_client_info": {
-          "package_name": "com.afif.optix"
+          "package_name": "com.afif.cobafirebase"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1096677826636-q4u5r2dsk818h3pt7nuobhl6amo7t3sv.apps.googleusercontent.com",
+          "client_id": "569608227763-6iink0o45jiv4btmdalgh0nbr110q76q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.afif.cobafirebase",
+            "certificate_hash": "b4421d7085f1906c41a3dee57839e72b1c9251fc"
+          }
+        },
+        {
+          "client_id": "569608227763-revldsmdo24harllk7u9kpd7anndcvmb.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAlin7dSQw9vD6T_5eY6E2aXa8y2xz4bJQ"
+          "current_key": "AIzaSyB5xRcmbPXT28wbSlOtnwc6gBGVmkU1grw"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1096677826636-q4u5r2dsk818h3pt7nuobhl6amo7t3sv.apps.googleusercontent.com",
+              "client_id": "569608227763-revldsmdo24harllk7u9kpd7anndcvmb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569608227763:android:33c1b18f042777a4d799c6",
+        "android_client_info": {
+          "package_name": "com.afif.optix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569608227763-hlnla5d0jrqafh0k6hajkblsgi0h7b5p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.afif.optix",
+            "certificate_hash": "b4421d7085f1906c41a3dee57839e72b1c9251fc"
+          }
+        },
+        {
+          "client_id": "569608227763-revldsmdo24harllk7u9kpd7anndcvmb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5xRcmbPXT28wbSlOtnwc6gBGVmkU1grw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "569608227763-revldsmdo24harllk7u9kpd7anndcvmb.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

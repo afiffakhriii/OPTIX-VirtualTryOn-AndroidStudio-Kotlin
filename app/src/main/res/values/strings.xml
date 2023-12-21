@@ -1,6 +1,13 @@
 <resources>
     <string name="app_name">OPTIX</string>
 
+    //Home
+    <string name="product_recomendation">Recommended Glasses For You</string>
+    <string name="another_product">Other Glasses You Might See</string>
+    <string name="price">159K</string>
+    <string name="product_name">Purple Glasses</string>
+    <string name="try_on">Virtual Try On</string>
+
     //navigation drawer
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -11,42 +18,93 @@
 
     //menu
     <string name="menu_home">Home</string>
-    <string name="menu_favorite">Favorite</string>
+    <string name="menu_wishlist">Wishlist</string>
     <string name="menu_cart">Cart</string>
     <string name="menu_profile_setting">Profile Setting</string>
     <string name="menu_Logout">Log Out</string>
     <string name="profile_name">Guest Star</string>
     <string name="profile_email">GuestStar@gmail.com</string>
-    <string name="profile_call">08123456789</string>
 
     //Login//Logout
-    <string name="btnLogin_text">Sign In</string>
-    <string name="btnSignUp_text">Sign Up</string>
     <string name="title">Welcome to OPTIX!</string>
     <string name="sub_title">Your Personal Eyewear Stylist!</string>
     <string name="new_to_optix">New To OPTIX?</string>
     <string name="create_account_now">Create Account Now!</string>
     <string name="sudah_mempunyai_akun">Already have an account?</string>
-    <string name="tv_nama">Name</string>
-    <string name="tv_email">Email</string>
-    <string name="tv_password">Password</string>
-    <string name="tv_confirm_password">Confirm Password</string>
-
-    <string name="registration_successful">Registration successful!</string>
-    <string name="fields_required">All fields must be filled in</string>
-    <string name="invalid_email_format">Invalid Email Format!</string>
-    <string name="password_min_length">Password must not be less than 8 characters</string>
-    <string name="password_mismatch">Password not Match</string>
-
+    <string name="btnLogin_text">Sign In</string>
+    <string name="btnSignUp_text">Sign Up</string>
+    <string name="btnLogin_google_text">Sign In With Google</string>
+    <string name="sigin_failed">Google Sign In Failed!</string>
     <string name="data">Please complete your personal information first!</string>
     <string name="continue_with">or continue with</string>
     <string name="contentDescriptionDetail">detail story image</string>
     <string name="loading_txt">Loading</string>
     <string name="welcome_txt">Welcome</string>
-    <string name="title_logout_builder">Logout</string>
-    <string name="text_logout_dialog">Are you sure you want to log out?</string>
+    <string name="title_logout_builder">Log Out</string>
+    <string name="text_logout_dialog">Are you sure you want to Log Out?</string>
     <string name="yes_txt">Yes</string>
     <string name="cancel_txt">cancel</string>
     <string name="retry">Try Again</string>
+
+    <string name="tv_nama">Name</string>
+    <string name="tv_email">Email</string>
+    <string name="tv_password">Password</string>
+    <string name="tv_confirm_password">Confirm Password</string>
+    <string name="registration_successful">Registration successful!</string>
+    <string name="login_successful">Login successful!</string>
+    <string name="fields_required">All fields must be filled in</string>
+    <string name="invalid_email_format">Invalid Email Format!</string>
+    <string name="password_min_length">Password must not be less than 8 characters</string>
+    <string name="password_mismatch">Password not Match</string>
+
+    //searchbar
+    <string name="searchbar_hint">Search Product..</string>
+
+    //Image URL
+    <string name="profile_image_url">https://storage.googleapis.com/optix-assets/General/Profile%20Picture.png</string>
+    <string name="login_image">https://storage.googleapis.com/optix-assets/General/Login%20Model%20Picture.png</string>
+    <string name="regis_image">https://storage.googleapis.com/optix-assets/General/Registration%20Model%20Picture.png</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    //Profile Setting Activity
+    <string name="profile_activity_title">Profile Setting</string>
+    <string name="scan_new_face">Scan New Face</string>
+
+    <string name="scan_txt">You can change your current face.\nOur system will detect your new face, and we will recommend our glasses products according to your new face shape.</string>
+
+    //Favorite page
+    <string name="button_add">Add To Cart</string>
+    <string name="sellect_all">Select All</string>
+    <string name="total">Total</string>
+    <string name="harga">Rp. 630.000</string>
+    <string name="button_checkOut">CheckOut</string>
+
+    //detail page
+    <string name="description">Embrace the allure of simplicity with these elegant cat-eye glasses in captivating crimson. The timeless design and rich red hue make them a versatile accessory, adding a touch of charm to any ensemble. Perfect for both special occasions and casual outings, these glasses effortlessly elevate your style with understated sophistication.</string>
+    <string name="description_title">Product Description</string>
+
+    //Welcome_txt
+    <string name="subtitle_txt">We will recommend our best glasses to you based on your face shape, so go ahead and screen your face first!</string>
+    <string name="setUp_txt">How To Set Up Your Facial Data</string>
+    <string name="point1_txt">1. First, make sure that recording encironment is well-lit and free of direct sunlight, the camera is clean, and your face is not covered.</string>
+    <string name="point2_txt">2. Or You can choose your picture from your gallery.</string>
+    <string name="next">Continue</string>
+
+    //Scan Face
+    <string name="kamera">Take a Picture</string>
+    <string name="gallery">Choose From Gallery</string>
+    <string name="upload_btn">Upload Image</string>
+    <string name="next_btn">Next To Main Menu</string>
+    <string name="face_shape">Predicted Face Shape :</string>
+    <string name="result_scan">Oval</string>
+    <string name="or">Or</string>
+    <string name="waiting">Please Wait..</string>
+
+    //virtual try on
+    <string name="text">Dear to All beloved OPTIX user,\n\nWe hope this message finds you well. We would like to inform you that our application is still under development. Due to limited references, knowledge, and time constraints, we have not been able to implement the Virtual Try On feature in our application. Therefore, we sincerely hope for the opportunity to further develop this application.
+         \n\nYour understanding and consideration are highly appreciated. We are eager for the chance to enhance and expand our application in the future.
+         Thank you for your patience and support.\n\nBest regards,\nGROUP CH2-PS057 </string>
+
 
 </resources>

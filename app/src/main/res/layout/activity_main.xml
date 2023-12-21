@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     tools:openDrawer="start"
-    android:background="@color/light_blue">
+    style="@style/Screen">
 
     <include
         android:id="@+id/app_bar_main"
@@ -21,12 +21,10 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
+
         app:itemIconPadding="@dimen/nav_header_vertical_spacing"
         app:itemIconSize="@dimen/icon_size"
         app:headerLayout="@layout/nav_header_main"
         app:menu="@menu/activity_main_drawer"
-        app:itemIconTint="@color/light_blue"
-        app:itemTextColor="@color/white"
-        app:itemTextAppearance="@style/PoppinTextViewStyle"
-        android:background="@color/dark_blue" />
+        style="@style/nav_icon"/>
 </androidx.drawerlayout.widget.DrawerLayout>

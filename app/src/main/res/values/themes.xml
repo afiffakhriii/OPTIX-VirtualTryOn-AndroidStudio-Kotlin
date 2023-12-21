@@ -5,6 +5,7 @@
         <item name="colorPrimary">@color/light_blue</item>
         <item name="colorPrimaryVariant">@color/light_blue</item>
         <item name="colorOnPrimary">@color/light_blue</item>
+        <item name="android:textColor">@color/black</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/light_blue</item>
         <item name="colorSecondaryVariant">@color/light_blue</item>
@@ -16,6 +17,7 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
     </style>
 
     <style name="DrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
@@ -36,8 +38,82 @@
     <style name="PoppinTextViewStyle" parent="android:Widget.TextView">
         <item name="android:fontFamily">@font/poppins_bold</item>
     </style>
+    
+    //LIGHT MODE
+    //Backgroud
+    <style name="Screen">
+        <item name="android:background">@color/light_blue</item>
+    </style>
+
+    <style name="Nav_Screen">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="backgorund_field">
+        <item name="android:background">@drawable/corner_15dp</item>
+        <item name="android:backgroundTint">@color/white</item>
+    </style>
+
+    //text
+    <style name="Text">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Text_2">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Text_3">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/dark_blue</item>
+        <item name="fontFamily">@font/poppins_extra_bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Text_4">
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/poppins_extra_bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+
+    <style name="Text_hint">
+       <item name="hintTextColor">@color/black</item>
+        <item name="fontFamily">@font/poppins_thin</item>
+    </style>
+
+    //Button
+    <style name="Button">
+        <item name="android:background">@drawable/corner_15dp</item>
+        <item name="android:backgroundTint">@color/blue_banner2</item>
+        <item name="android:textColor">@color/light_blue</item>
+        <item name="fontFamily">@font/poppins_bold</item>
+    </style>
+
+    //Line
+    <style name="line">
+        <item name="android:background">@color/blue_banner1</item>
+    </style>
+
+    //searchview
+    <style name="searchview" parent="Widget.AppCompat.SearchView">
+        <item name="android:background">@drawable/corner_white_15dp</item>
+        <item name="android:hint">@string/searchbar_hint</item>
+    </style>
+
+    //Icon
+    <drawable name="icon_person">@drawable/baseline_person_outline_black_24</drawable>
+    <drawable name="icon_email">@drawable/baseline_mail_black_24</drawable>
+    <drawable name="icon_call">@drawable/baseline_call_black_24</drawable>
+
+    //nav icon color
+    <style name="nav_icon">
+        <item name="itemIconTint">@color/black</item>
+        <item name="itemTextColor">@color/black</item>
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:background">@color/white</item>
+    </style>
 
     <style name="Theme.OPTIX.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
     <style name="Theme.OPTIX.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

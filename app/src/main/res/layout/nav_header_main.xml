@@ -1,32 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="400dp"
+    android:layout_height="315dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/dark_blue"
+    style="@style/Screen"
     android:gravity="bottom"
     android:orientation="vertical"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
-    <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/imageView"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_gravity="center"
-        android:layout_marginBottom="16dp"
-        android:src="@drawable/profile_pic"/>
-
-    <androidx.appcompat.widget.SwitchCompat
-        android:id="@+id/swithMode"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="end"
-        android:layout_marginEnd="8dp"
-        android:thumb="@drawable/thumb"
-        app:track="@drawable/track" />
 
     <LinearLayout
-        android:layout_width="136dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_profile"
+            android:layout_width="112dp"
+            android:layout_height="113dp"
+            android:layout_gravity="start"
+            android:src="@drawable/def_pic" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="405dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="16dp"
@@ -36,23 +42,23 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:src="@drawable/baseline_person_outline_24" />
+            android:src="@drawable/icon_person" />
 
         <TextView
             android:id="@+id/profileName"
-            android:layout_width="wrap_content"
+            style="@style/Text"
+            android:layout_width="365dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:fontFamily="@font/poppins_regular"
             android:text="@string/profile_name"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="@color/white"
             android:textSize="16sp" />
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="406dp"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_marginBottom="16dp"
@@ -61,49 +67,18 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/baseline_mail_24"
+            android:src="@drawable/icon_email"
             android:layout_gravity="center_vertical" />
 
         <TextView
             android:id="@+id/profileEmail"
-            android:layout_width="wrap_content"
+            style="@style/Text"
+            android:layout_width="365dp"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/poppins_regular"
-            android:textColor="@color/white"
-            android:textSize="16sp"
             android:layout_marginStart="16dp"
-            android:text="@string/profile_email" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginBottom="16dp"
-        android:layout_marginStart="16dp">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/baseline_call_24"
-            android:layout_gravity="center_vertical" />
-
-        <TextView
-            android:id="@+id/profileCall"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:fontFamily="@font/poppins_regular"
-            android:textColor="@color/white"
-            android:textSize="16sp"
-            android:layout_marginStart="16dp"
-            android:text="@string/profile_call" />
+            android:text="@string/profile_email"
+            android:textSize="16sp" />
     </LinearLayout>
-
-    <View
-        android:id="@+id/divider"
-        android:layout_width="250dp"
-        android:layout_height="10dp"
-        android:layout_gravity="center"
-        android:background="@drawable/corner_15dp" />
 
 </LinearLayout>
